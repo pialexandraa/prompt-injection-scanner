@@ -1,0 +1,29 @@
+# Workspace info/data:
+.vscode/
+
+# Test archives and target files:
+*.zip
+*.tar.gz
+*.rar
+
+# Python cache and/or bytecode compiled items
+__pycache__*/
+*.py[cod]
+*$py.class
+pip-log.txt
+
+# Environment information
+venv*/
+env/
+.venv*/
+
+# Maschine/system information
+.DS_Store
+._*
+.Trashes/
+.AppleDouble/
+
+# Possible Linux-generated container data
+*~
+.Trash-*/
+.directory
