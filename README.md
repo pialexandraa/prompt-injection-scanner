@@ -10,11 +10,11 @@ This tool is written in Python and helps scan archives for possible prompt injec
 ## Motivation
 
 Oftentimes, modern browsers and solutions come bundled in with various types of security features and checks. At times, as security checks, one could follow common sense checks like:
-* comparing the hashes of the executables/programs
-* using antivirus and/or firewalls
-* browser extensions for minimal security checks at downloads
-* enabling system security programs
-* using VirusTotal for checking URLs, executables, and/or archives
+* comparing the hashes of the executables/programs,
+* using antivirus and/or firewalls,
+* (maybe) adding browser extensions for minimal security checks at downloads,
+* enabling platform security defaults and keeping systems patched (security baseline features) - e.g. Windows Defender/Secure Boot, macOS System Integrity Protection (SIP) and/or Gatekeeper, Linux AppArmor/SELinux,
+* using VirusTotal for checking URLs, executables, and/or archives.
 
 However, when dealing with prompt injections, most of these scans fail. Given the recent advancement of AI tools and security breaches we've seen advertised online, it is important to prevent and keep safe from **prompt injections**. These are specifically difficult to detect because **the malicious instructions are context-based**: these are cybersecurity exploits where an attacker manipulates a large language model (LLM) by embedding hidden or deceptive instructions into the inputs.
 
