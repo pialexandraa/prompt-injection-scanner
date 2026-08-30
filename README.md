@@ -51,6 +51,9 @@ Isolation parameters:
 | `--cap-drop ALL` | strips away all root and kernel-level privileges |
 | `User sandboxuser` | enforces non-root, unprivileged execution (I put them directly in the Dockerfile) |
 
+3. Additionally, I checked with a zip containing a C++ injected code to see if the expanded detection works as intended. So far, it finds and correctly signals the anomaly
+
+    ![](assets/prompt_injected_archive_check.png)
 
 
 
